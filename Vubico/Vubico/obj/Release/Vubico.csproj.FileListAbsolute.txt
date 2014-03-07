@@ -89,3 +89,4 @@ C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\obj\Release\Vubico.cspro
 C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\obj\Release\Vubico.dll
 C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\obj\Release\Vubico.pdb
 C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\obj\Release\XapCacheFile.xml
+C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\obj\Release\Vubico.csprojResolveAssemblyReference.cache
