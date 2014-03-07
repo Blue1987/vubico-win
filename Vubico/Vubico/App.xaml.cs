@@ -39,7 +39,7 @@ namespace Vubico
             if (Debugger.IsAttached)
             {
                 // Visualizza i contatori della frequenza fotogrammi corrente.
-                Application.Current.Host.Settings.EnableFrameRateCounter = true;
+                Application.Current.Host.Settings.EnableFrameRateCounter = false;
 
                 // Visualizza le aree dell'applicazione che vengono ridisegnate in ogni fotogramma.
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;
@@ -84,21 +84,22 @@ namespace Vubico
         // Codice da eseguire se un'operazione di navigazione ha esito negativo
         private void RootFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
         {
-            if (Debugger.IsAttached)
+            if (System.Diagnostics.Debugger.IsAttached)
             {
                 // Un'operazione di navigazione ha avuto esito negativo; inserire un'interruzione nel debugger
-                Debugger.Break();
+                System.Diagnostics.Debugger.Break();
             }
         }
 
         // Codice da eseguire in caso di eccezioni non gestite
         private void Application_UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
-            if (Debugger.IsAttached)
+            if (System.Diagnostics.Debugger.IsAttached)
             {
                 // Si è verificata un'eccezione non gestita; inserire un'interruzione nel debugger
-                Debugger.Break();
+                     System.Diagnostics.Debugger.Break();
             }
+            
         }
 
         #region Inizializzazione dell'applicazione Windows Phone

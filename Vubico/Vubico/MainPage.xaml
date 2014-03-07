@@ -1,41 +1,17 @@
-﻿<phone:PhoneApplicationPage
+﻿<phone:PhoneApplicationPage 
+    x:Class="sdkMiniBrowserCS.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:Resources="clr-namespace:Vubico.Resources" x:Name="wb1"
-    x:Class="Vubico.MainPage"
-    mc:Ignorable="d"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    SupportedOrientations="PortraitOrLandscape"  Orientation="Portrait"
     shell:SystemTray.IsVisible="True">
-
-        <!--Rimuovere il commento per vedere la griglia di allineamento che consenta di verificare che i controlli siano
-            allineati ai limiti comuni.  L'immagine ha un margine superiore di -32px tenendo
-            conto della barra delle applicazioni. Impostarlo su 0 (o eliminare tutti i margini)
-            se la barra delle applicazioni è nascosta.
-
-            Prima della spedizioni, eliminare questo XAML e l'immagine stessa.
-       Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
-
-
-
-
-    <!--Sample code showing usage of ApplicationBar-->
-    <!--<phone:PhoneApplicationPage.ApplicationBar> 
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True"> 
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/> 
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/> 
-            <shell:ApplicationBar.MenuItems> 
-                <shell:ApplicationBarMenuItem Text="MenuItem 1"/> 
-                <shell:ApplicationBarMenuItem Text="MenuItem 2"/> 
-            </shell:ApplicationBar.MenuItems> 
-        </shell:ApplicationBar> 
-    </phone:PhoneApplicationPage.ApplicationBar>-->
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -46,17 +22,27 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Vubi.co" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="Vubico" Style="{StaticResource PhoneTextNormalStyle}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Margin="14,0,10,0" Grid.Row="1">
-            <Button x:Name="Vubico" Content="Vubi.co" HorizontalAlignment="Right" Margin="0,618,156,0" VerticalAlignment="Top"  Height="68" Width="166" Click="HomeClick" />
-            <phone:WebBrowser HorizontalAlignment="Stretch" Margin="0,-28,0,83" x:Name="wb" VerticalAlignment="Stretch" IsScriptEnabled="True"/>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBox Height="Auto" HorizontalAlignment="Stretch" Margin="-10,4,81,0" Name="textBox1" Text="https://vubi.co/" VerticalAlignment="Top"  Opacity="0" Visibility="Collapsed"/>
+            <Button Content="Go" Height="70" HorizontalAlignment="Right" Margin="0,616,184,0" Name="button1" VerticalAlignment="Top" Width="91" Click="button1_Click" />
+            <phone:WebBrowser HorizontalAlignment="Stretch" Margin="0,-16,0,85" Name="webBrowser1" VerticalAlignment="Stretch" IsScriptEnabled="True" />
         </Grid>
     </Grid>
 
-
-
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
 
 </phone:PhoneApplicationPage>

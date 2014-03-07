@@ -1,30 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
-using Microsoft.Phone.Shell;
-using Vubico.Resources;
 
-namespace Vubico
+namespace sdkMiniBrowserCS
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        // Costruttore
+        // Constructor
         public MainPage()
         {
             InitializeComponent();
+        }
 
-        }
- private void HomeClick(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Go button clicked event handler
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            string site = "https://www.m.google.com";    
-            WebBrowser wb = new WebBrowser();
-            wb.Navigate(new Uri(site, UriKind.Absolute));
-            wb.IsScriptEnabled = true;
+            string site;
+            site = textBox1.Text;
+            webBrowser1.Navigate(new Uri(site, UriKind.Absolute));
         }
+
     }
 }
