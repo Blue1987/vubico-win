@@ -1,13 +1,13 @@
-﻿<xapCache source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Bin\Release\Vubico_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="07/03/2014 18:18:42">
-  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\obj\Release\Vubico.dll" archivePath="Vubico.dll" lastWriteTime="07/03/2014 18:18:42" />
+﻿<xapCache source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Bin\Release\Vubico_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="04/04/2014 12:58:08">
+  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\obj\Release\Vubico.dll" archivePath="Vubico.dll" lastWriteTime="04/04/2014 12:58:06" />
   <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="25/02/2014 15:18:54" />
-  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="25/02/2014 15:18:53" />
-  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="25/02/2014 15:18:54" />
-  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="25/02/2014 15:18:54" />
-  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="25/02/2014 15:18:54" />
+  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="04/04/2014 12:35:27" />
+  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="04/04/2014 12:35:27" />
+  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="04/04/2014 12:35:27" />
+  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="04/04/2014 12:35:27" />
   <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="07/03/2014 16:37:28" />
   <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="25/02/2014 15:18:54" />
-  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="25/02/2014 15:18:53" />
+  <file source="C:\Users\Federico\Source\Repos\vubico-win\Vubico\Vubico\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="04/04/2014 12:35:27" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Controls.dll" archivePath="Microsoft.Expression.Controls.dll" lastWriteTime="25/09/2012 02:41:02" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Drawing.dll" archivePath="Microsoft.Expression.Drawing.dll" lastWriteTime="25/09/2012 02:41:02" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25/09/2012 02:41:02" />
